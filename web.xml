@@ -1,0 +1,44 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>First</servlet-name>
+  	<display-name>First</display-name>
+  	<description></description>
+  	<servlet-class>com.mph.First</servlet-class>
+  	<init-param>
+  	<param-name>username</param-name>
+  	<param-value>Pranshu</param-value>
+  	</init-param>
+  	<init-param>
+  	<param-name>password</param-name>
+  	<param-value>pass123</param-value>
+  	</init-param>
+  </servlet>
+  <servlet>
+  	<servlet-name>Second</servlet-name>
+  	<display-name>Second</display-name>
+  	<description></description>
+  	<servlet-class>com.mph.Second</servlet-class>
+  		<init-param>
+  	<param-name>username</param-name>
+  	<param-value>ranshu</param-value>
+  	</init-param>
+  	<init-param>
+  	<param-name>password</param-name>
+  	<param-value>ss123</param-value>
+  	</init-param>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>First</servlet-name>
+  	<url-pattern>/Anynames</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Second</servlet-name>
+  	<url-pattern>/Second</url-pattern>
+  </servlet-mapping>
+</web-app>
